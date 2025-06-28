@@ -1,6 +1,10 @@
 streamlit>=1.28.0
 pandas>=1.5.0
 numpy>=1.24.0
-tensorflow<=2.16.1
+
+# Note: The version constraint for TensorFlow is set to allow for minor updates but prevent breaking changes.
+tensorflow>=2.13.0,<2.17.0
+# This ensures compatibility with the rest of the stack while still allowing for performance improvements and bug fixes.
+
 plotly>=5.15.0
 Pillow>=9.5.0
