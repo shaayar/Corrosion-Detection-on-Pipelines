@@ -691,6 +691,10 @@ def about_section():
     - Preventive maintenance planning
     - Regulatory compliance documentation
     - Field inspection support
+
+    ## Created by
+    - **Website Developer**: Shubham Dave
+    - **Model Trainer**: Aditya Singh 
     """)
 
 if __name__ == "__main__":
